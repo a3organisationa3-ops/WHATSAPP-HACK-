@@ -15,11 +15,21 @@ function checkKey() {
   }
 }
 
-// ==== 2. Share System ====
+// ==== 2. Buy Key via WhatsApp ====
+function buyKey() {
+  const phone = "919836942455"; // <-- YOUR WhatsApp number without + sign
+  const text = encodeURIComponent("Hello! I want to buy WhatsApp Hack key.");
+  const whatsappURL = `https://wa.me/${phone}?text=${text}`;
+  window.open(whatsappURL, "_blank");
+}
+
+// ==== 3. Share System ====
 let shareCount = 0;
 
 function shareOnWhatsApp() {
-  const shareText = encodeURIComponent("Hack anyone's WhatsApp in just 1 click! 🔥\nCheck this out: https://your-site.github.io/whatsapp-hack");
+  const shareText = encodeURIComponent(
+    "Hack anyone's WhatsApp in just 1 click! 🔥\nCheck this out: https://your-site.github.io/whatsapp-hack"
+  );
   const whatsappUrl = `https://api.whatsapp.com/send?text=${shareText}`;
   window.open(whatsappUrl, "_blank");
 
@@ -34,7 +44,7 @@ function shareOnWhatsApp() {
   }
 }
 
-// ==== 3. Fake Hack Animation ====
+// ==== 4. Fake Hack Animation ====
 const logs = [
   "[+] Connecting to WhatsApp server...",
   "[+] Bypassing end-to-end encryption...",
@@ -68,4 +78,4 @@ function startFakeHack() {
       }, 2000);
     }
   }, 1500);
-      }
+                                  }
