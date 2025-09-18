@@ -28,7 +28,7 @@ let shareCount = 0;
 
 function shareOnWhatsApp() {
   const shareText = encodeURIComponent(
-    "Hack anyone's WhatsApp in just 1 click! 🔥\nCheck this out: https://your-site.github.io/whatsapp-hack"
+    "Hack anyone's WhatsApp in just 1 click! 🔥\nCheck this out: https://a3organisationa3-ops.github.io/WHATSAPP-HACK-/"
   );
   const whatsappUrl = `https://api.whatsapp.com/send?text=${shareText}`;
   window.open(whatsappUrl, "_blank");
